@@ -32,15 +32,20 @@ ne = gpd.read_file(ne10m)
 ## Define cities
 
 cities = """
-Paris Berlin Athens Budapest Reykjavik
-Dublin Rome Riga Vilnius Luxembourg
-Valletta Amsterdam Rotterdam Oslo Warsaw
-Lisbon Bucharest Bratislava Ljubljana Barcelona
-Madrid Stockholm Bern Zurich London
-Milan Lille Lyon Frankfurt
+Vienna Brussels Sofia Zagreb Nicosia
+Prague Copenhagen Tallinn Helsinki Paris
+Berlin Athens Budapest Reykjavik Dublin
+Rome Riga Vilnius Luxembourg Valletta
+Amsterdam Rotterdam Oslo Warsaw Lisbon
+Bucharest Bratislava Ljubljana Barcelona Madrid
+Stockholm Bern Zurich London Milan
+Lille Lyon Frankfurt
 """.strip().split()
 
-gdf = ne[ne.nameascii.isin(cities)][['nameascii','geometry']].rename(columns={'nameascii':'city'})
+ne['ls_name'].fillna(value='', inplace=True)
+mask = ne.nameascii.isin(cities)|ne.ls_name.isin(cities)
+gdf = ne[mask][['nameascii','geometry']].rename(columns={'nameascii':'city'})
+gdf.loc[gdf.city == 'Kobenhavn', 'city'] = 'Copenhagen'
 # Some cities are defined twice, with some quite strange locations
 
 ## Model grid
