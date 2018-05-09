@@ -17,6 +17,9 @@ On the next version of the service, the city defiitions will be simplified
 to a 3x3 model grids arround the city centre.
 See [notebook](Natural%20Earth%20with%20GeoPandas.ipynb) and [script](grid9.py).
 
+The differences between old (GADM) and new (3x3 grid) is visualized
+on this [notebook](GADM%20vs%209%20Grid.ipynb).
+
 [GADM]: https://gadm.org
 [emepctm]: https://github.com/metno/emep-ctm
 
