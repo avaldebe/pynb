@@ -12,13 +12,14 @@ The results for the 2016 Validated ReAnalysis, or VRA2016 for short,
 and complementary runs are compared to the provided observation datasts
 on the follwwing notebooks:
 
-- [Stations](stations.ipynb) location and clasification of surface stations
+- [Stations](stations.ipynb) datasets pre-processing
 - [Collocation](collocation.ipynb) of model results to observation sites
-- [Stats]() performance statistics of VRA2016 and complementary runs
+- [Classification](classification.ipynb) and location of surface stations
+- [Stats](stats.ipynb) performance statistics of VRA2016 and complementary runs
 - [Exceedances]() on VRA2016 and complementary runs
 
 #### conda environment at work
-The notebooks and scripts on this folder use pandas and altair modules.
+The notebooks and scripts on this folder use pandas and geoviews modules.
 This are privided by the altair environment on PPI/lustre.
 
 Activate this environment before you start the notebook as follows:
@@ -27,8 +28,8 @@ Activate this environment before you start the notebook as follows:
 module load aerocom/anaconda3-stable
 
 # activate enviroment
-source activate altair
+source activate geoviews
 
-# start jupyter lab
-jupyter lab --no-browser --ip=$HOSTNAME.met.no
+# start jupyter notebook
+jupyter notebook --no-browser --ip=$HOSTNAME.met.no
 ```
