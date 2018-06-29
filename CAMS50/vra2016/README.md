@@ -16,7 +16,7 @@ on the follwwing notebooks:
 - [Collocation](collocation.ipynb) of model results to observation sites
 - [Classification](classification.ipynb) and location of surface stations
 - [Stats](stats.ipynb) performance statistics of VRA2016 and complementary runs
-- [Exceedances]() on VRA2016 and complementary runs
+- [Exceedances](exceedances.ipynb) on VRA2016 and complementary runs
 
 #### conda environment at work
 The notebooks and scripts on this folder use pandas and geoviews modules.
