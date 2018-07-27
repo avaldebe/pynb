@@ -18,6 +18,18 @@ on the follwwing notebooks:
 - [Stats](stats.ipynb) performance statistics of VRA2016 and complementary runs
 - [Exceedances](exceedances.ipynb) on VRA2016 and complementary runs
 
+## Datasets
+- `eeaVRA`: validated surface obs for data assimilation
+- `eeaVAL`: validated surface obs for model evaluataion
+- `cifsBC`: CIFS boundary conditions
+- `emepHC`: hindcast run (no DA), operational version (CAMS50.201801)
+- `emepSS`: hindcast run (no DA), operational version (CAMS50.201801)
+- `emepEM`: hindcast run (no DA), operational version (CAMS50.201801), new TNO-CAMS 2015 emissions
+- `emepAN`: (re)analysis run (DA: NO2,O3,SO2), operational version (CAMS50.201801; DA16)
+- `emepCO`: (re)analysis run (DA: NO2,O3,SO2,CO), operational version (CAMS50.201801; DA16) low rejection threshold (350 ug/m3)
+- `emepCOv2`: (re)analysis run (DA: NO2,O3,SO2,CO), operational version (CAMS50.201801; DA16) higher rejection threshold (700 ug/m3)
+- `emepPM`: (re)analysis run (DA: NO2,O3,SO2,PM25,PM10), development version (CAMS50.201801; DA17 wo/PM feedback)
+
 #### conda environment at work
 The notebooks and scripts on this folder use pandas and geoviews modules.
 This are privided by the altair environment on PPI/lustre.
