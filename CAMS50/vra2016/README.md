@@ -28,7 +28,9 @@ on the follwwing notebooks:
 - `emepAN`: (re)analysis run (DA: NO2,O3,SO2), operational version (CAMS50.201801; DA16)
 - `emepCO`: (re)analysis run (DA: NO2,O3,SO2,CO), operational version (CAMS50.201801; DA16) low rejection threshold (350 ug/m3)
 - `emepCOv2`: (re)analysis run (DA: NO2,O3,SO2,CO), operational version (CAMS50.201801; DA16) higher rejection threshold (700 ug/m3)
-- `emepPM`: (re)analysis run (DA: NO2,O3,SO2,PM25,PM10), development version (CAMS50.201801; DA17 wo/PM feedback)
+- `emepPM`: (re)analysis run (DA: NO2,O3,SO2,PM25,PM10), development version (CAMS50.201801; DA17 PM2.5/10 wo/feedback)
+- `emepPMv2`: (re)analysis run (DA: NO2,O3,SO2,PM25,PM10), development version (CAMS50.201801; DA17 PM2.5 wo/feedback, PM10 w/feedback)
+
 
 #### conda environment at work
 The notebooks and scripts on this folder use pandas and geoviews modules.
