@@ -30,6 +30,7 @@ on the follwwing notebooks:
 - `emepCOv2`: (re)analysis run (DA: NO2,O3,SO2,CO), operational version (CAMS50.201801; DA16) higher rejection threshold (700 ug/m3)
 - `emepPM`: (re)analysis run (DA: NO2,O3,SO2,PM25,PM10), development version (CAMS50.201801; DA17 PM2.5/10 wo/feedback)
 - `emepPMv2`: (re)analysis run (DA: NO2,O3,SO2,PM25,PM10), development version (CAMS50.201801; DA17 PM2.5 wo/feedback, PM10 w/feedback)
+- `emepPMv3`: (re)analysis run (DA: NO2,O3,SO2,CO,PM10), development version (CAMS50.201801; DA17 PM10 w/feedback, no PM2.5)
 
 
 #### conda environment at work
