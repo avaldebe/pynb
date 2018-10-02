@@ -25,6 +25,8 @@ on the follwwing notebooks:
 - `emepHC`: hindcast run (no DA), operational version (CAMS50.201801)
 - `emepSS`: hindcast run (no DA), operational version (CAMS50.201801)
 - `emepEM`: hindcast run (no DA), operational version (CAMS50.201801), new TNO-CAMS 2015 emissions
+- `emepCM09`: hindcast run (no DA), development version (dev@59c7d07), EMEP 2009 chemical mechanism (EmChem09)
+- `emepCM16`: hindcast run (no DA), development version (dev@59c7d07), EMEP 2016 chemical mechanism (EmChem16x)
 - `emepAN`: (re)analysis run (DA: NO2,O3,SO2), operational version (CAMS50.201801; DA16)
 - `emepCO`: (re)analysis run (DA: NO2,O3,SO2,CO), operational version (CAMS50.201801; DA16) low rejection threshold (350 ug/m3)
 - `emepCOv2`: (re)analysis run (DA: NO2,O3,SO2,CO), operational version (CAMS50.201801; DA16) higher rejection threshold (700 ug/m3)
